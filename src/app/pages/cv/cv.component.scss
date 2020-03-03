@@ -1,0 +1,36 @@
+.title {
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+
+}
+.title span {
+  position: relative;
+  bottom: -54%;
+  font-size:70px;
+  font-weight: 100;
+  font-family:  'Josefin Slab', serif;
+  background-color: white;
+  text-transform: uppercase;
+  padding: 0 80px;
+
+
+}
+.cv-button {
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+.cv-button a {
+  text-decoration: none;
+  border: 1px solid black;
+  font-size: 48px;
+  color:black;
+  padding: 20px 80px;
+  font-weight: 100;
+  font-family:  'Josefin Slab', serif;
+}
+
+.cv-button a:hover {
+  background-color: black;
+  color:white;
+
+}

@@ -1,1 +1,22 @@
-<p>projects works!</p>
+<div class="row">
+  <div class="col-11 offset-1 text-center title" @slideInDown>
+    <span>Projects</span>
+  </div>
+</div>
+
+<div class="row mt-5">
+   <div class="col-11 offset-1 m-auto">
+     <div class="row mt-5">
+       <div class="col-3 mb-4 text-center project" *ngFor="let pr of project  | slice:0:20; let i=index;" @fadeInUp>
+         <a [routerLink]="'/projects/' + (i+1)">
+           <img style="width:100%;" src="../../../assets/images/project.jpg" alt="project">
+           <div class="span-project">
+             Project {{ i + 1}}
+           </div>
+
+         </a>
+
+       </div>
+     </div>
+   </div>
+</div>
